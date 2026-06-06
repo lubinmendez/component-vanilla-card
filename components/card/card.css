@@ -43,6 +43,12 @@
   -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
 }
 
+.card-links a, 
+.card-image-link {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
+}
+
 .card-link-icon {
   width: 30px;
   height: 30px;
