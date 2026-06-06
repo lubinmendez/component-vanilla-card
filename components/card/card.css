@@ -13,6 +13,11 @@
   width: 100%; /* Make the image take the full width of the card */ 
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px;
+  transition: filter 0.25s ease;
+}
+
+.card-image:hover {
+  filter: brightness(1.1) saturate(1.1);
 }
 
 .card-title {
@@ -31,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--clickable-area-padding); /* Increase clickable area for better UX */
+  padding: var(--clickable-area-padding); /* Increase clicka  le area for better UX */
   user-select: none;
   -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
 }
