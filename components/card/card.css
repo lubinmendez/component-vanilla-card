@@ -6,7 +6,7 @@
   width: 100%; /* Make the card take the full width of its container */
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  width: 350px; /* Fixed width for practice, remove later */
 }
 
 .card-image {
@@ -24,6 +24,8 @@
   display: flex;
   justify-content: center;
   color: var(--color-neutral-900);
+  padding-top: 15px;
+  padding-bottom: 3px;
 }
 
 .card-links {
