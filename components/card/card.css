@@ -56,19 +56,14 @@
   transition: fill 0.2s ease;
 }
 
+/* Override default global styles fro keyborad navigattion only fot this links */
+.card-links a:focus-visible {
+  outline-offset: 0;
+}
+
 /* Restrict hover to devices with hover capability and fine pointer */
 @media (hover: hover) and (pointer: fine) {
   .card-links a:hover .card-link-icon {
     fill: var(--color-tertiary);
   }
-}
-
-/* Customized visual selection box for Tab navigation for this component */
-.card-image-link:focus-visible,
-.card-links a:focus-visible {
-  outline: 2px solid var(--color-tertiary);
-  border-radius: 4px;
-}
-.card-image-link:focus-visible {
-    outline-offset: 4px;
 }
